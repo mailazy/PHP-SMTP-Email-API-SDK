@@ -1,0 +1,24 @@
+{
+    "name": "mailazy/smtp-email-api-sdk",
+    "description": "Mailazy SMTP Email API SDK for PHP",
+    "keywords": ["mailazy", "phpsdk", "send-email", "email-api", "SMTP", "email-library"],
+    "homepage": "https://mailazy.com",
+    "authors": [
+        {
+            "name": "Mailazy Team",
+            "email": "connect@mailazy.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mailazy\\": "src"
+        },
+        "files": ["src/request.php"]
+    },
+    "require": {
+        "php": ">=5.6",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
