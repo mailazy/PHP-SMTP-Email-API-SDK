@@ -9,7 +9,7 @@ Please visit [mailazy.com](https://mailazy.com/) for more information.
 
 The Mailazy PHP SDK can be installed with  [Composer](https://getcomposer.org/). Run this command:
 ```
-composer require mailazy/php-sdk
+composer require mailazy/php-smtp-email-api-sdk
 ```
 
 ## Configuration
